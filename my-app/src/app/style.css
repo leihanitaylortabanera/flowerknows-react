@@ -1,0 +1,39 @@
+.navbar, footer {
+    background-color: #FDEDEC
+}
+
+.nav-item {
+    color: grey;
+    cursor: pointer!important;
+}
+
+.dropdown .dropdown-item, footer {
+    color: grey;
+}
+
+.hero-banner {
+    background: url('/snow-ballet-people.webp');
+    background-size: cover;         /* Ensures 100% of the image is shown without cropping */
+    background-repeat: no-repeat;     /* Prevents the image from tiling */      
+    width: auto;
+    height: 600px;
+}
+
+.fancy {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 75px;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.normal {
+    font-weight: 600;
+}
+
+.footer, .nav-link, .dropdown-item {
+    font-family: 'Cormorant Garamond';
+    font-weight: bold;
+}
+
+.nav-item.dropdown {
+    font-family: 'Cormorant Garamond';
+}
